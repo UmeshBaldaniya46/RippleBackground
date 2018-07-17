@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.ripplebackground.RippleBackground
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rb_color="@color/rippelColor"
+        app:rb_duration="5000"
+        app:rb_radius="30dp"
+        app:rb_rippleAmount="6"
+        app:rb_scale="6"
+        app:rb_strokeWidth="1dp"
+        app:rb_type="fillRipple">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_centerInParent="true"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_school_black_24dp" />
+
+    </com.ripplebackground.RippleBackground>
+</android.support.constraint.ConstraintLayout>
